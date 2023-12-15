@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Lucida Console' "Courier New", monospace;
     box-sizing: border-box;
 }
 
@@ -623,6 +623,13 @@ width: 10%;
         align-items: center;
         padding: 100px 0px ;
         background-color: whitesmoke;
+    }
+
+    .grid-item p {
+        font-size: 1.2em;
+        color: #666;
+        line-height: 1.6;
+        margin: 15px 0px 0px;
     }
 }
 
