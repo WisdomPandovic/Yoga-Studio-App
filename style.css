@@ -232,9 +232,7 @@ form button {
     justify-content: space-between;
 }
 
-.logo-container img {
-width: 10%;
-}
+
 
 .links-container {
     display: grid;
@@ -581,6 +579,10 @@ width: 10%;
         grid-template-columns:1fr;
     }
 
+    footer {
+        text-align: left;
+    }
+
     .footer-link{
         display: block;
         justify-content: space-between;
@@ -631,6 +633,42 @@ width: 10%;
         line-height: 1.6;
         margin: 15px 0px 0px;
     }
+
+    .logo-container p {
+        text-align: left;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        }
+
+        .grid-link h2{
+            font-size: 17px;
+        }
+
+        .grid-links{
+            font-size: 15px;
+        }
+
+        .grid-links i{
+            font-size: 15px;
+        }
+
+        .contact-icons {
+            display: flex;
+            gap: 20px;
+            justify-content: flex-start;
+        }
+
+        .contact-icons i {
+            font-size: 14px;
+        }
+
+        .quick-links {
+            text-align:left;
+        }
+
+        .quick-links a {
+            margin: 0 0px;
+        }
 }
 
 @media (max-width: 500px) {
